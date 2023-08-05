@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sebastian Rodriguez</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Sebastian Rodriguez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">LINEA DE TIEMPO</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PROYECTOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.jpg" alt="">
+            </div>
+            <h1>Sebastian Rodriguez</h1>
+            <h2>Creador de TX, y otros proyectos.</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/sebaastian_88/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCafHqFtuui0R3F1t3O7HP2Q"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.paypal.me/jrseba"><i class="fa-brands fa-paypal"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Sebastian Rodriguez.</span> soy un joven de 14 años, creador de un bot de WhatsApp, y proximamente dueño de otros proyectos publicos, me dedico a TxBot en una gran parte, ya que este proyecto lleva conmigo mas de 9 meses.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            25-08-2009
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 315 730 5913
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            sebastianrodrigueez88@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.webga.site
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Dueño</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>IOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestion de proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Linea de tiempo</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Proyectos</h3>
+                    <div class="item izq">
+                        <h4>Inicios en los Bots de WhatsApp</h4>
+                        <span class="casa">MessirveBot</span>
+                        <span class="fecha">01-12-2022</span>
+                        <p>En los principios de Diciembre del año 2022, subi por primera vez un repositorio en GitHub, este repositorio tenia mi primer bot, este era llamado "MessirveBot" el cual tuvo mucho exito, logrando un maximo de 1.000 grupos activos, luego de esto, Messirve fue cambiado por la primera version de TxBot.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Primera version oficial de TX</h4>
+                        <span class="casa">TxBot</span>
+                        <span class="fecha">05-02-2023</span>
+                        <p>Para esta fecha ya habia evolucionado todo, teniamos mucho apoyo del publico, luego de los primeros 5 dias del mes Febrero, saco la primera version oficial con el nombre de TxBot, la cual cambio todo, hizo que creciaramos aun mas, luego de tener tanto exito tuve que encontrar staff para mi proyecto.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ultima version de TX</h4>
+                        <span class="casa">TxBot</span>
+                        <span class="fecha">04-08-2023</span>
+                        <p>Para esta fecha tenemos mas apoyo que antes, y TX evoluciono mucho, se volvio el bot preferido de muchos, fue tanto el apoyo recibido que podemos decir que creadores grandes de bots se han fijado en el proyecto, ya que nuestro servicio siempre se ha enfocado en brindar una calidad de el servicio y una agradable sensacion.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Inicios</h4>
+                        <span class="casa">MessirveBot</span>
+                        <span class="fecha">01-10-2022</span>
+                        <p>No sabia nada, pedi ayuda a creadores de grandes bots y nadie me quiso enseñar a crear este mismo, tuve que aprender solo, se una etapa muy dura para mi, empece aprendiendo Node.JS, y como a poco fui creando mi bot, cuando salio la primera version de MessirveBot, este mismo llevaba 3 meses funcionando.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>La primera version de TX</h4>
+                        <span class="casa">TxBot</span>
+                        <span class="fecha">05-02-2023</span>
+                        <p>Cuando sucedio esto senti una sensacion muy agradable, estaba cumpliendo con lo que tanto queria, mi proyecto estaba saliendo exitoso, en este tiempo conoci a Jony, Jony es mi actual moderador, esta persona me ayudo en mis incios, y gracias a el y otros personajes que al dia de hoy no recuerdo de ellos mi proyecto salio adelante, alcanzando mas publico y fijando mas miradas en el.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>La ultima version de TX</h4>
+                        <span class="casa">TX 3.0</span>
+                        <span class="fecha">04-08-2023</span>
+                        <p>Ahora TX es un gran bot, que ha fijado muchas miradas, incluso mas de las que esperaba, siendo la mejor eleccion de muchos usuarios, brindando un servicio excelente, en esta fecha ya habia conocido 4 personas muy buenas e interesadas en mi proyecto, Abel, Franco, Ana y Jhonnier, con estas personas estoy muy agradecido, estas fueron las que me dieron fuerzas para seguir con este proyecto y llevarlo a donde esta hoy en dia.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Proyectos</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <p>Biografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <p>TX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                escribeme: +57 315 730 5913
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: sebastianrodrigueez88@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/sebaastian_88/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCafHqFtuui0R3F1t3O7HP2Q"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.paypal.me/jrseba"><i class="fa-brands fa-paypal"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
